@@ -1,0 +1,148 @@
+body {
+	font-family : Arial, Helvatica, sans-serif;
+	font-size : 15px;
+	line-height : 1.5em;
+	padding : 0;
+	margin : 0;
+	background-color : #f4f4f4;
+}
+
+.container{
+	width : 90%;
+	margin : auto;
+	overflow : hidden;
+}
+
+ ul {
+    padding: 0;
+    margin : 0;
+}
+
+header {
+	background-color : #78b1d4;
+	color : #1b1a1a;
+	padding-top : 20px;
+	min-height : 50px;
+	border-bottom : #032d38 3px solid;
+}
+
+ header h1 {
+	float : left;
+	width : 70%;
+}
+
+header #nav {
+	margin-top : 10px;
+	float : right;
+	width : 30%;
+}
+
+header li{
+	float : left;
+	display : inline;
+	padding : 0 10px 0 10px;
+}
+
+header  h1{
+	margin : 0;
+} 
+
+header a{
+	color : #ffffff;
+	text-decoration : none;
+	text-transform : uppercase;
+	font-size : 16px;
+} 
+
+ header .current a {
+	color : #1b1a1a;
+	font-weight : bold;
+}
+
+header a:hover{
+	color : #073366;
+	font-weight : bold;
+}
+
+footer {
+	padding : 20px;
+	text-align : center;
+	background : #78b1d4;
+}
+
+.parallax {
+    background-image: url("../Images/profile-bg.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#basic-info h2,p,blockquote{
+      margin: 0;
+}
+
+#basic-info h2{
+    color : #1b1a1a; 
+}
+
+#basic-info{
+      position: absolute;
+      top : 200px;
+      left : 100px;
+      text-align: left;
+      font-size: 25px;
+      line-height : 1.8em;
+      color : #1c8fd6;
+}
+
+#basic-info img{
+    position: absolute;
+    width : 175px;
+    top : -120px;
+    left : 0px;
+}
+
+.container article{
+    float: left;
+    width : 70%;
+    margin: 15px;
+    border: rgb(74, 119, 158) 3px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+  
+.container aside{
+    float: right;
+    width : 20%;
+    margin: 15px;
+    text-align: center;
+    border: rgb(74, 119, 158) 3px solid;
+    padding: 10px;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+section h3,p{
+    margin : 5px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Example</title>
+    <script src="fetch.js"></script>
+</head>
+<style>
+ .container{
+     width : 70%;
+     margin : 1rem;
+     padding : 1rem;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }   
+</style>
+<body>
+    <div class="container">
+        <div class="col-md-6">
+          <h2>List Of Customers</h2>
+          <p>Using customer.json file</p>
+          <span id="fetchList"></span>
+       </div>
+       <div class="col-md-6">
+         <h2>List Of Users</h2>
+         <p>Using json link - https://jsonplaceholder.typicode.com/users</p>
+         <span id="fetchUsersList"></span>
+       </div> 
+    </div>  
+</body>
+</html>

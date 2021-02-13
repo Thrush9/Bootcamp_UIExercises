@@ -1,0 +1,22 @@
+Media Query Exercise 
+====================
+
+-> For Small Screen 
+
+   - Menu items aligned Column wise
+
+   - Website Icon - hidden    
+
+   - Font Size of h1,h2 in Hero Image should be small  
+
+   - Header of products - hidden
+  
+   - Products should be one in a row
+
+-> For Medium Screen 
+   
+   - Products should be two in a row
+
+-> Top Border for Footer
+
+-> Anchor tag - Click here  in Hero Image 
